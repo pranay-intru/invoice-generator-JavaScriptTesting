@@ -3,7 +3,7 @@ name: Deploy to Vercel with SAST Check
 on:
   push:
     branches:
-      - main  # Adjust this to your main branch name
+      - master  # Adjust this to your main branch name
 
 jobs:
   sast-check-and-deploy:
